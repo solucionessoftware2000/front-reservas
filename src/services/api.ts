@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance with base URL
 const api = axios.create({
-  baseURL: 'http://localhost:3001/api',
+  baseURL: 'https://api-reservas-828e.onrender.com/api',
 });
 
 // Add request interceptor to include the token in all requests
